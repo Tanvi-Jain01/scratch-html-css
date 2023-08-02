@@ -13,7 +13,7 @@ View the page at  https://tanvi-jain01.github.io/scratch-html-css/
 
 ## Future Aim
 To make this website Responsive
-
+---
 
 ## Background Images
 There are several websites where you can find high-quality background images for your HTML projects. Here are some popular websites that offer a wide range of beautiful and high-resolution background images:  
