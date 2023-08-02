@@ -1,4 +1,4 @@
-# scratch-html-css
+# HTML-CSS Scratch Code
 
 View the page at  https://tanvi-jain01.github.io/scratch-html-css/
 
