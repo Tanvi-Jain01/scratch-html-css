@@ -7,12 +7,11 @@
 body
 {
 	
-	background: url('bg10.jpg')  no-repeat;
+	background: url('bg7.jpg')  no-repeat;
 	background-position:center;
 	background-size:cover;
 	height:120vh;
-	margin:0px;
-	padding:0px;
+	
 	font-family: 'Open Sans', sans-serif;
 
 	display: flex;
@@ -20,14 +19,14 @@ body
 	align-items: center;
 	color:black;
 
-	backdrop-filter: blur(2px);
+	backdrop-filter: blur(0px);
 	
 	
 	
 }
 a
 {
-	colr:blue;
+	color:blue;
 		
 		font-weight:bold;
 		font-size:18px;
@@ -36,22 +35,21 @@ a
 
 .divv
 {
-	float:right;
+	padding:0px;
+	
 	background: url('Banne.jpg')  no-repeat;
 	background-position:center;
 	background-size:cover;
 
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 1.0);
 
-	border-radius:30px;
-	border: 5px solid white;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 1.0);
+	border: 0px solid white;
 	background-color: white;
-	width: 450px;;
-	height:auto+10px;
+	width: 350px;
+	height:auto;
 	color:black;
-	magin-top:15%;
-	position:absolute;	
-	box-sizing:border-box;
+	
 	animation:transitiononpage 2s;
 
 }
@@ -118,7 +116,7 @@ a
 	border:3px  solid white;
 	border-radius:70px;
 	background-color:blue;
-	padding-left:10px;
+	
 }
 
 #button
@@ -129,7 +127,6 @@ a
 	border-radius:0px;
 	width:90%;
 	height:45px;
-
 	
 	transition:.3s;
 
@@ -152,9 +149,9 @@ a
 
 label
 {
-	margin-left:10px;
+	
 	font-weight:100px;
-	padding: 10px 10px;
+	
 	
 	
 }
@@ -168,6 +165,11 @@ img
 	margin-right:30px#;
 } */
 	
+.underbox
+{
+	background-color:black;
+	font:white
+}
 
 
 </style>
@@ -176,18 +178,16 @@ img
 <body>
 
 <div class="divv">
-
-
-
-
+<div class="underbox">
 <br>
-<h1 align="center"><font color="black"><font size="35"> Login</h1></font>
+<h1 align="center"><font color="white"><font size="35"> Login</h1></font>
 <h2><center>let's Go Ahead Together!</font></center></h2>
 
+</div>
 
 <!-- <img src="login1.jpg"> -->
 
-<br>
+
 <br>
 <center>
 <form name="login" action="" method="POST">
@@ -217,14 +217,11 @@ img
 </form>
 </center>
 
-
-
 <br>
 
 <!-- <a class="container" href="proregstu.php"><align="left"> Not registered yet?</a> -->
 
-<a class="container" href="#"><align="right"> Forgot Password?</a>
-
+<a class="container" href="register.html"><align="right"> Not registered yet?</a>
 
 </div>
 
