@@ -12,7 +12,9 @@ View the page at  https://tanvi-jain01.github.io/scratch-html-css/
 
 
 ## Login
-![image](https://github.com/Tanvi-Jain01/scratch-html-css/assets/123053700/94abd7e3-473f-46ec-b733-3ca0ad579b9c)
+![image](https://github.com/Tanvi-Jain01/scratch-html-css/assets/123053700/01fafd47-681d-46d8-a2df-29f655b843ee)
+
+
 
 
 ## Register
