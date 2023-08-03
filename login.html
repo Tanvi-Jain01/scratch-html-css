@@ -1,0 +1,233 @@
+<html>
+<head>
+<title> LOGIN</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+<style>
+
+body
+{
+	
+	background: url('bg10.jpg')  no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:120vh;
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:black;
+
+	backdrop-filter: blur(2px);
+	
+	
+	
+}
+a
+{
+	colr:blue;
+		
+		font-weight:bold;
+		font-size:18px;
+}
+
+
+.divv
+{
+	float:right;
+	background: url('Banne.jpg')  no-repeat;
+	background-position:center;
+	background-size:cover;
+
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 1.0);
+
+	border-radius:30px;
+	border: 5px solid white;
+	background-color: white;
+	width: 450px;;
+	height:auto+10px;
+	color:black;
+	magin-top:15%;
+	position:absolute;	
+	box-sizing:border-box;
+	animation:transitiononpage 2s;
+
+}
+@keyframes transitiononpage
+{
+	from
+	{
+		opacity 0;
+		transform:rotateY(-100deg);
+	}
+	to
+	{
+		opacity 1;
+		transform:rotateX(0deg);
+		
+	}
+}
+	
+.textbox
+{
+	/* font-size:18; */
+	border:2px  solid grey;
+	font-weight:bold;
+	border-radius:0px;
+	align:center;
+	width:90%;
+	height:35px;
+	
+	border-top-width: 0;
+	border-top-style: none;
+	border-top-color: none;
+
+	transition:.7s;
+	animation: transitionontext 7s;
+	
+}
+
+@keyframes transitionontext
+{
+	from
+	{
+		opacity:-0.7;	
+	}
+	to
+	{
+		//visibility:visible;
+		opacity: 1;
+		
+	}
+}
+
+.textbox:hover
+{
+	margin-left:10px;
+	
+
+	/* font-size:20px; */
+}
+.divv label
+{
+	//align:center;
+	color:white;
+	font-size:18;
+	border:3px  solid white;
+	border-radius:70px;
+	background-color:blue;
+	padding-left:10px;
+}
+
+#button
+{
+	color:white;
+	background-color:black;
+	border:5px solid white;
+	border-radius:0px;
+	width:90%;
+	height:45px;
+
+	
+	transition:.3s;
+
+	align:center;
+	align-items: center;
+	font-size:18;
+	
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#button:hover
+{
+	background-color:white;
+	color:black;
+	border-color:black;
+	border-radius:10px;
+		
+}
+
+label
+{
+	margin-left:10px;
+	font-weight:100px;
+	padding: 10px 10px;
+	
+	
+}
+/* 
+img
+{
+	float:left;
+	height:370px;
+	width:450px;
+	border-radius:20px;
+	margin-right:30px#;
+} */
+	
+
+
+</style>
+</head>
+
+<body>
+
+<div class="divv">
+
+
+
+
+<br>
+<h1 align="center"><font color="black"><font size="35"> Login</h1></font>
+<h2><center>let's Go Ahead Together!</font></center></h2>
+
+
+<!-- <img src="login1.jpg"> -->
+
+<br>
+<br>
+<center>
+<form name="login" action="" method="POST">
+<!-- <b><label> UserID</label></b> -->
+
+<input class="textbox" type="textbox" placeholder="User Id" name="uid" autofocus required >
+<br>
+<br>
+
+
+<!-- <b><label> Password</label></b> -->
+
+<input class="textbox" type="password" name="pswd" placeholder="Password" required  >
+<br>
+
+
+
+<!-- <b><label> Captcha</label></b> -->
+
+
+<br>
+<br>
+
+
+<input id="button" type="button"  value="Login" name="login"><br><br> 
+
+</form>
+</center>
+
+
+
+<br>
+
+<!-- <a class="container" href="proregstu.php"><align="left"> Not registered yet?</a> -->
+
+<a class="container" href="#"><align="right"> Forgot Password?</a>
+
+
+</div>
+
+
+</body>
+</html>
