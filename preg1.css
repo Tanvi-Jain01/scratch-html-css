@@ -1,0 +1,69 @@
+html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+body{
+		
+		background:liear-gradient(40deg,#00ff00,#50ebec);
+		
+}
+
+.container{		
+		/* background:radial-gradient(white 90%,#FF00FF 10%); */
+		background-color:white;
+		border-radius:10px;
+		justify-content:center;
+		height:auto;
+		width:400px;		
+		margin-top:20px;		
+		
+		/* padding: 20px; */
+		color:black;
+}
+		
+im{
+	float:left;
+	height:270px;
+	width:300px;
+	border-radius:50px;
+}
+table{
+	color:black;
+	float:center;
+}
+div.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 1.0);
+	/* text-align: left; */
+	/* padding-left:50px; */
+	height:auto;
+}
+.mybutton{
+	background-color: black;
+	font-size:18px;
+	text-decoration:none;
+	color:white;
+	border-radius:5px;
+	width:50%;
+	height:auto;
+	border-color:transparent;
+	border-width:1px;
+	transition: .3s;
+	font-style: bold;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.mybutton:hover{
+	
+	border-radius:7px;
+	width:55%;
+	
+	
+}
+input{
+	border-radius:10px;
+	height:50%;
+	width:90%;
+}
