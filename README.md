@@ -14,6 +14,8 @@ View the page at  https://tanvi-jain01.github.io/scratch-html-css/
 ## Login
 ![image](https://github.com/Tanvi-Jain01/scratch-html-css/assets/123053700/206a0326-fbaf-4a69-9130-ba320b35b0b8)
 
+## Register
+![image](https://github.com/Tanvi-Jain01/scratch-html-css/assets/123053700/1784a455-4a58-442e-aa35-616c5bc9ef8b)
 
 ## Future Aim
 To make this website Responsive
