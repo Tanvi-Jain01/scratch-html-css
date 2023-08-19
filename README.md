@@ -2,6 +2,10 @@
 
 View the page at  https://tanvi-jain01.github.io/scratch-html-css/
 
+### The Aim of this repository is to create a website from scratch and getting familiar with:
+HTML tags : header, footer, div, form
+CSS: transition, grid, flex
+
 ## Homepage
 ![image](https://github.com/Tanvi-Jain01/scratch-html-css/assets/123053700/fc28e9e5-0f86-4813-8771-0ed32f8c61db)
 
